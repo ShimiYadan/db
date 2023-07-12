@@ -1,1 +1,19 @@
-
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShimiYadan/db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShimiYadan/db/issues"
+  },
+  "homepage": "https://github.com/ShimiYadan/db#readme"
+}
