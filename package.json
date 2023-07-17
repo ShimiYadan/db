@@ -1,19 +1,23 @@
 {
   "name": "db",
   "version": "1.0.0",
-  "description": "mongoDB",
-  "main": "index.js",
+  "description": "this is a Mongodb module with basic functions such as a singleton connection, findAll, edit, and delete queries",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ShimiYadan/db.git"
-  },
-  "author": "",
+  "author": "shimi yadan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ShimiYadan/db/issues"
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
   },
-  "homepage": "https://github.com/ShimiYadan/db#readme"
+  "dependencies": {
+    "mongodb": "^5.7.0"
+  }
 }
