@@ -15,7 +15,7 @@ config in microservice
   "license": "ISC",
   "dependencies": {
     "@types/node": "^17.0.21",
-    "db": "git+https://github.com/ShimiYadan/db.git#1.0.0",
+    "db": "git+https://github.com/ShimiYadan/db.git#1.0.1",
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
