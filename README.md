@@ -49,6 +49,7 @@ The DB class provides methods for connecting to MongoDB, accessing collections, 
 This module throws errors when there are issues with connecting to the MongoDB server or executing database operations. You should handle these errors appropriately in your application.
 
 # Usage
+```
 import { DB } from 'db'
 
 import * as dotenv from 'dotenv'
@@ -78,7 +79,7 @@ async function main() {
   }
 }
 main();
-
+```
 # License
 This module is released under the MIT License.
 
