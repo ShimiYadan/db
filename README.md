@@ -67,7 +67,7 @@ async function main() {
 
     const documents = await db.findDocuments(collection, { name: 'John' })
     console.log('Found documents:', documents)
-
+    
     const insertedId = await db.insertDocument(collection, { name: 'Jane', age: 30 })
     console.log('Inserted document ID:', insertedId)
 
@@ -77,7 +77,6 @@ async function main() {
     await db.close()
   }
 }
-
 main();
 
 # License
